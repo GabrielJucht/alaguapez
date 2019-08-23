@@ -1,0 +1,48 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/administrator
+/bin
+/cache
+/cli
+/components
+/descargas
+/images
+/includes
+/language
+/layouts
+/libraries
+/logs
+/media
+/modules
+/plugins
+/tmp
+/templates/beez3
+/templates/system
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+htaccess.txt
+LICENSE.txt
+README.txt
+robots.txt
+web.config.txt
+phpunit.xml.dist
+index.phpunit
+configuration.php
+CONTRIBUTING.md
